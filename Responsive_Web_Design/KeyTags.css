@@ -3,7 +3,7 @@
 <!-- "margin:auto;" centers the object in question-->
 <!-- "transform:skew(xdeg, ydeg);" skews shape from x and y degrees-->
 <!-- "background:linear-gradient(xdeg, color , color);" one gradient declaration as part of the background property-->
-
+<!-- "z-index:9;" like layers of an artwork the highest the index the more pushed front it is-->
 :: STANDARD PAGE INITALIZATION::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 <!DOCTYPE html>
