@@ -6,5 +6,5 @@ const = read only const
 
 ( % ) = remainder equals the remainder of a division not a result
 
-
+( ' ) / ( " ) = single or double quotes make no diff
 */
