@@ -1,0 +1,18 @@
+<!-- overflow controls the scrollbar-->
+<!-- "overflow:hidden;" hides the scrollbar-->
+<!-- "margin:auto;" centers the object in question-->
+
+:: STANDARD PAGE INITALIZATION::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
