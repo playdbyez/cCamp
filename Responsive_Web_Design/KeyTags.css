@@ -1,6 +1,8 @@
 <!-- overflow controls the scrollbar-->
 <!-- "overflow:hidden;" hides the scrollbar-->
 <!-- "margin:auto;" centers the object in question-->
+<!-- "transform:skew(xdeg, ydeg);" skews shape from x and y degrees-->
+<!-- "background:linear-gradient(xdeg, color , color);" one gradient declaration as part of the background property-->
 
 :: STANDARD PAGE INITALIZATION::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
