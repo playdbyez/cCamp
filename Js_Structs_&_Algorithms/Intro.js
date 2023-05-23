@@ -1,9 +1,11 @@
 /* pamjit manager
 
 //Data types and declarations :
+ANY VARIABLE CREATED WITHOUT A TYPE (var, let or const) IS A GLOBAL VARIABLE
 var = Variable
 let = can be used to name a variable the same name as a previous var declaration
 const = read only const
+
 
 ( % ) = remainder equals the remainder of a division not a result
 
