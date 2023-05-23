@@ -20,6 +20,14 @@ variable.length = size of variable, not  function, braces are not required
 
 ( [] ) = Subscript operator works the same
 ( const myArray = ["string", 2]; ) = Array declaration
+( const myArray = [[]] [[]]; ) = Nested arrays declaration (subscript indexing is annoying tho)
 
 
+//Pushing and poping values from an array will render the removed values accessible
+myArray.push(4) = pushBack
+myArray.unshift(4) = pushFront
+
+myArray.pop() = resizeLast
+myArray.shift() = resizeFirst
+( functionName(); ) = Calling a function
 */
