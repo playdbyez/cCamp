@@ -19,5 +19,7 @@ console.log("text".length); = size of string output
 variable.length = size of variable, not  function, braces are not required
 
 ( [] ) = Subscript operator works the same
+( const myArray = ["string", 2]; ) = Array declaration
+
 
 */
