@@ -11,6 +11,11 @@ const = read only const
 
 ( ' ) / ( " ) = single or double quotes make no diff
 
+( === ) = Strict equality operator compares the object type rather than its value 
+so '3' === 3 will return False as the first is a string and the second an int.
+
+
+
 
 
 //Functions
