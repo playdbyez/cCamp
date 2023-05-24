@@ -8,6 +8,10 @@ myDog =
 "legs" : 4
 };
 
+
+
+
+
 //To access members of the object you must call them with- 
 //the dot operator if the asset is one word long:
 
@@ -16,7 +20,10 @@ console.log(myDog.legs);
 // Output
 4
 
-//Or the subscript operator if the asset is more than one word long:
+
+
+
+//If the asset is more than one word long, use the subscript operator like so:
 
 const nameof = myDog["Space name"];
 console.log(myDog["Space name"]);
@@ -24,6 +31,18 @@ console.log(myDog["Space name"]);
 // Output
 Malfoy
 
+
+
+
+//Or like so:
+
+const value = "Space name";
+const valueLookup = myDog[value];
+console.log(valueLookup);
+
+
+// Output
+Malfoy
 
 
 //If an object is declared with values instead of names 
@@ -62,6 +81,29 @@ console.log(myDog.name);
 // Output
 Happy Coder
 
+
+
+
+//The same declarations are used in order to add new properties to the object
+
+const myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+myDog.bark = "bow-wow";
+console.long(myDog.bark);     //Outputing the value of a properties that was not there before
+
+// Output
+bow-wow
+
+
+
+//To delete a property simple add
+
+delete myDog.bark;
 
 
 
