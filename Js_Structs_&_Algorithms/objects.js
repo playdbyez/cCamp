@@ -43,3 +43,30 @@ console.log(myBreed);
 
 // Output
 Doberman
+
+
+
+
+//When altering a pre-made object its neccessary to use the right declarations:
+
+const myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+myDog.name = "Happy Coder";
+console.log(myDog.name);
+
+// Output
+Happy Coder
+
+
+
+
+
+
+
+
+
