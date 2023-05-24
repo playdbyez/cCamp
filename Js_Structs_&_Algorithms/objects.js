@@ -1,7 +1,7 @@
 //Objects in JS are similar to Classes in C
 // Instead of a function you can also create an object :
 
-myDog 
+myDog = 
 {
 "Spaced name": "Malfoy,"
 "tails" : 1,
@@ -23,3 +23,23 @@ console.log(myDog["Space name"]);
 
 // Output
 Malfoy
+
+
+
+//If an object is declared with values instead of names 
+//Then substrings can also be used for string-matching within an object
+
+const dogs = 
+{
+  Fido: "Mutt",
+  Hunter: "Doberman",
+  Snoopie: "Beagle"
+};
+
+
+const myDog = "Hunter";
+const myBreed = dogs[myDog];  //Searching within the dogs object for a value of "Hunter" in order to display its value.
+console.log(myBreed);
+
+// Output
+Doberman
