@@ -1,4 +1,4 @@
-//Objects in JS are similar to Classes in C
+  //Objects in JS are similar to Classes in C
 // Instead of a function you can also create an object :
 
 myDog = 
@@ -11,20 +11,14 @@ myDog =
 
 
 
-
-//To access members of the object you must call them with- 
-//the dot operator if the asset is one word long:
-
+//ACCESSING A ONE WORD MEMBER
 const legsof = myDog.legs;
 console.log(myDog.legs);
+
 // Output
 4
 
-
-
-
-//If the asset is more than one word long, use the subscript operator like so:
-
+//ACCESSING A MULTI-WORD MEMBER
 const nameof = myDog["Space name"];
 console.log(myDog["Space name"]);
 
@@ -32,10 +26,7 @@ console.log(myDog["Space name"]);
 Malfoy
 
 
-
-
-//Or like so:
-
+//ALTERNATIVE//ACCESSING A MULTI-WORD MEMBER
 const value = "Space name";
 const valueLookup = myDog[value];
 console.log(valueLookup);
@@ -45,9 +36,7 @@ console.log(valueLookup);
 Malfoy
 
 
-//If an object is declared with values instead of names 
-//Then substrings can also be used for string-matching within an object
-
+//INDEXING SEARCH 
 const dogs = 
 {
   Fido: "Mutt",
@@ -66,8 +55,7 @@ Doberman
 
 
 
-//When altering a pre-made object its neccessary to use the right declarations:
-
+//EDITING OBJECT
 const myDog = {
   "name": "Coder",
   "legs": 4,
@@ -84,8 +72,7 @@ Happy Coder
 
 
 
-//The same declarations are used in order to add new properties to the object
-
+//ADD PROPERTY
 const myDog = {
   "name": "Coder",
   "legs": 4,
@@ -101,12 +88,33 @@ bow-wow
 
 
 
-//To delete a property simple add
-
+//DELETE A PROPERTY
 delete myDog.bark;
 
 
 
+//OBJECT INSIDE FUNCTION:
+function phoneticLookup(val) {
+  let result = "";
+
+   const lookup =
+  {
+    "alpha" : "Adams",
+    "bravo" : "Boston",
+    "charlie" : "Chicago",
+    "delta" : "Denver",
+    "echo" : "Easy",
+    "foxtrot" : "Frank"
+  };
+  result = lookup[val];
+
+  return result;
+}
+
+phoneticLookup("charlie");
+
+// Output
+Chicago
 
 
 
