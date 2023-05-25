@@ -51,3 +51,19 @@ function countdown(n){
 console.log(countdown(10));
 
 
+
+//5 RECURSION RANGE
+function rangeOfNumbers(startNum, endNum) {
+  if (endNum < startNum) {
+  return [];
+  }
+  else {
+    const countArray = rangeOfNumbers(startNum, endNum-1);
+    console.log("startNum: ",startNum)
+    console.log("endNum: ",endNum)
+    countArray.push(endNum);
+    console.log(countArray)
+    return countArray;
+  }
+};
+
