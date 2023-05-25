@@ -19,3 +19,10 @@ return Math.floor(numb);
 console.log(Math.floor(Math.random() * 10));
 // Output
 random int from 1 - 9 
+
+
+
+
+//Furthermore upper and lower limits can be set to the random output  
+function randomRange(myMin, myMax) {
+return  Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;}
