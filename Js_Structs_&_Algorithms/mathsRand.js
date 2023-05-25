@@ -26,3 +26,19 @@ random int from 1 - 9
 //Furthermore upper and lower limits can be set to the random output  
 function randomRange(myMin, myMax) {
 return  Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;}
+
+
+
+//Ternary operator (?) exists in Js
+function checkEqual(a, b) {
+return a == b ? "Equal" : "Not Equal";}
+
+checkEqual(1, 2)
+
+
+
+//Ternary operator Indentation
+function checkSign(num) {
+return (num > 0) ? "positive" : (num == 0) ? "zero": (num < 0) ? "negative": "negative";}
+
+checkSign(10);
