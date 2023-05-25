@@ -1,4 +1,5 @@
 /* pamjit manager
+//https://onecompiler.com/javascript/3wmgqvsxn
 
 //Data types and declarations :
 ANY VARIABLE CREATED WITHOUT A TYPE (var, let or const) IS A GLOBAL VARIABLE
