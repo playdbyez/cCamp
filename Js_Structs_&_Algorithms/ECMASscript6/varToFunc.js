@@ -8,6 +8,7 @@ const myFunc = function() {
 
 
 
+//THE ARROW!
 //The previous implementation is old however, the new form of declaration follows. 
 const myFunc = () => {
   const myVar = "value";
