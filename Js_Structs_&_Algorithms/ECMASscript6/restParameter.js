@@ -1,5 +1,5 @@
-//The rest parameter allows an indefinite number of arguments to be passed to a function at the same time.
-(...)
+//The rest parameter allows an indefinite number of arguments 
+//These can be passed to a function at the same time by issuing the spread operator (...)
  
  
  //USAGE
@@ -11,4 +11,9 @@
                                 }
 
 
-
+//The rest parameter will always return an unpacked array
+ //This parameter only works as an argument to a function or an array literal
+ 
+ 
+ const spreaded = ...arr
+//ERROR: declaration unsucessful
