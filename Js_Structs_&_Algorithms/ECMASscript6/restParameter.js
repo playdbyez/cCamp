@@ -17,3 +17,14 @@
  
  const spreaded = ...arr
 //ERROR: declaration unsucessful
+ 
+ 
+ //The spread operator can also be used for coping contents of one array to another
+ const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
+let arr2;
+arr2 = [...arr1];  
+
+console.log(arr2);
+
+//Output from arr2
+'JAN', 'FEB', 'MAR', 'APR', 'MAY'
