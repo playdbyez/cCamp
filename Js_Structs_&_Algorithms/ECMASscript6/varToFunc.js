@@ -27,3 +27,15 @@ const doubler = item => item * 2;
 //if it has more than one paramenter to the function
 const multiplier = (item, multi) => item * multi;
 multiplier(4, 2);
+
+
+//If a default value should be displayed
+const greeting = (name = "Anonymous") => "Hello " + name;
+
+console.log(greeting("John"));
+//Output
+Hello John
+
+console.log(greeting());
+//Output
+Hello Anonymous
