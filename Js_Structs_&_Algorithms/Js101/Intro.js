@@ -20,11 +20,19 @@ so '3' === 3 will return False as the first is a string and the second an int.
 
 
 //Functions
+
 console.log(""); = basic output function
 
 console.log("text".length); = size of string output
 
 variable.length = size of variable, not  function, braces are not required
+
+Math.max() = the highest value from the arguments passed to the parenthesis
+
+Math.max.apply(null,arr) =  now the max argument can read not only single digit arguments but also an array of arguments
+
+
+
 
 ( [] ) = Subscript operator works the same
 ( const myArray = ["string", 2]; ) = Array declaration
