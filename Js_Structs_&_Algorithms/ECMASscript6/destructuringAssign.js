@@ -6,9 +6,17 @@ const user = { name: 'John Doe', age: 34 };
 const name = user.name;
 const age = user.age;
 
+console.log(user.name);
+// Output
+John Doe
+
 
 
 //AFTER
+const user = { name: 'John Doe', age: 34 };
 const { name, age } = user;
 
+console.log(user.name);
+// Output
+John Doe
 
