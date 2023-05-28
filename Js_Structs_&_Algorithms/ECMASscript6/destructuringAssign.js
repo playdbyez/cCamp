@@ -20,3 +20,14 @@ console.log(user.name);
 // Output
 John Doe
 
+
+//ALTERNATIVE DECLARATION
+
+const user = { name: 'John Doe', age: 34 };
+const { name: userName, age: userAge } = user;
+
+console.log(user.name);
+console.log(userName);
+// Output
+John Doe
+John Doe
